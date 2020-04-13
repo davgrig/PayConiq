@@ -1,0 +1,18 @@
+{
+  "description": "Hello World Examples",
+  "public": true,
+  "files": {
+    "hello_world.rb": {
+      "content": "test ruby"
+    },
+    "hello_world.py": {
+      "content": "test python"
+    },
+    "hello_world_ruby.txt": {
+      "content": "ruby txt"
+    },
+    "hello_world_python.txt": {
+      "content": "python txt"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1",
+  "forks_url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/forks",
+  "commits_url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/commits",
+  "id": "aef4b51489822d42684705f911f624a1",
+  "node_id": "MDQ6R2lzdGFlZjRiNTE0ODk4MjJkNDI2ODQ3MDVmOTExZjYyNGEx",
+  "git_pull_url": "https://gist.github.com/aef4b51489822d42684705f911f624a1.git",
+  "git_push_url": "https://gist.github.com/aef4b51489822d42684705f911f624a1.git",
+  "html_url": "https://gist.github.com/aef4b51489822d42684705f911f624a1",
+  "files": {
+    "test1.txt": {
+      "filename": "test1.txt",
+      "type": "text/plain",
+      "language": "Text",
+      "raw_url": "https://gist.githubusercontent.com/davgrig/aef4b51489822d42684705f911f624a1/raw/f079749c42ffdcc5f52ed2d3a6f15b09307e975e/test1.txt",
+      "size": 5,
+      "truncated": false,
+      "content": "test1"
+    },
+    "test2.txt": {
+      "filename": "test2.txt",
+      "type": "text/plain",
+      "language": "Text",
+      "raw_url": "https://gist.githubusercontent.com/davgrig/aef4b51489822d42684705f911f624a1/raw/d606037cb232bfda7788a8322492312d55b2ae9d/test2.txt",
+      "size": 5,
+      "truncated": false,
+      "content": "test2"
+    }
+  },
+  "public": true,
+  "created_at": "2020-04-12T21:28:52Z",
+  "updated_at": "2020-04-12T21:28:52Z",
+  "description": "Hello World Examples",
+  "comments": 0,
+  "user": null,
+  "comments_url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/comments",
+  "owner": {
+    "login": "davgrig",
+    "id": 6986723,
+    "node_id": "MDQ6VXNlcjY5ODY3MjM=",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6986723?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/davgrig",
+    "html_url": "https://github.com/davgrig",
+    "followers_url": "https://api.github.com/users/davgrig/followers",
+    "following_url": "https://api.github.com/users/davgrig/following{/other_user}",
+    "gists_url": "https://api.github.com/users/davgrig/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/davgrig/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/davgrig/subscriptions",
+    "organizations_url": "https://api.github.com/users/davgrig/orgs",
+    "repos_url": "https://api.github.com/users/davgrig/repos",
+    "events_url": "https://api.github.com/users/davgrig/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/davgrig/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "forks": [],
+  "history": [
+    {
+      "user": {
+        "login": "davgrig",
+        "id": 6986723,
+        "node_id": "MDQ6VXNlcjY5ODY3MjM=",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/6986723?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davgrig",
+        "html_url": "https://github.com/davgrig",
+        "followers_url": "https://api.github.com/users/davgrig/followers",
+        "following_url": "https://api.github.com/users/davgrig/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davgrig/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davgrig/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davgrig/subscriptions",
+        "organizations_url": "https://api.github.com/users/davgrig/orgs",
+        "repos_url": "https://api.github.com/users/davgrig/repos",
+        "events_url": "https://api.github.com/users/davgrig/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davgrig/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "version": "2755c2fb947fdd47aed174695de053898e3cfb47",
+      "committed_at": "2020-04-12T21:28:51Z",
+      "change_status": {
+        "total": 2,
+        "additions": 2,
+        "deletions": 0
+      },
+      "url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/2755c2fb947fdd47aed174695de053898e3cfb47"
+    }
+  ],
+  "truncated": false
+}

@@ -1,91 +1,1246 @@
 {
-  "url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1",
-  "forks_url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/forks",
-  "commits_url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/commits",
-  "id": "aef4b51489822d42684705f911f624a1",
-  "node_id": "MDQ6R2lzdGFlZjRiNTE0ODk4MjJkNDI2ODQ3MDVmOTExZjYyNGEx",
-  "git_pull_url": "https://gist.github.com/aef4b51489822d42684705f911f624a1.git",
-  "git_push_url": "https://gist.github.com/aef4b51489822d42684705f911f624a1.git",
-  "html_url": "https://gist.github.com/aef4b51489822d42684705f911f624a1",
-  "files": {
-    "test1.txt": {
-      "filename": "test1.txt",
-      "type": "text/plain",
-      "language": "Text",
-      "raw_url": "https://gist.githubusercontent.com/davgrig/aef4b51489822d42684705f911f624a1/raw/f079749c42ffdcc5f52ed2d3a6f15b09307e975e/test1.txt",
-      "size": 5,
-      "truncated": false,
-      "content": "test1"
-    },
-    "test2.txt": {
-      "filename": "test2.txt",
-      "type": "text/plain",
-      "language": "Text",
-      "raw_url": "https://gist.githubusercontent.com/davgrig/aef4b51489822d42684705f911f624a1/raw/d606037cb232bfda7788a8322492312d55b2ae9d/test2.txt",
-      "size": 5,
-      "truncated": false,
-      "content": "test2"
-    }
-  },
-  "public": true,
-  "created_at": "2020-04-12T21:28:52Z",
-  "updated_at": "2020-04-12T21:28:52Z",
-  "description": "Hello World Examples",
-  "comments": 0,
-  "user": null,
-  "comments_url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/comments",
-  "owner": {
-    "login": "davgrig",
-    "id": 6986723,
-    "node_id": "MDQ6VXNlcjY5ODY3MjM=",
-    "avatar_url": "https://avatars0.githubusercontent.com/u/6986723?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/davgrig",
-    "html_url": "https://github.com/davgrig",
-    "followers_url": "https://api.github.com/users/davgrig/followers",
-    "following_url": "https://api.github.com/users/davgrig/following{/other_user}",
-    "gists_url": "https://api.github.com/users/davgrig/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/davgrig/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/davgrig/subscriptions",
-    "organizations_url": "https://api.github.com/users/davgrig/orgs",
-    "repos_url": "https://api.github.com/users/davgrig/repos",
-    "events_url": "https://api.github.com/users/davgrig/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/davgrig/received_events",
-    "type": "User",
-    "site_admin": false
-  },
-  "forks": [],
-  "history": [
-    {
-      "user": {
-        "login": "davgrig",
-        "id": 6986723,
-        "node_id": "MDQ6VXNlcjY5ODY3MjM=",
-        "avatar_url": "https://avatars0.githubusercontent.com/u/6986723?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/davgrig",
-        "html_url": "https://github.com/davgrig",
-        "followers_url": "https://api.github.com/users/davgrig/followers",
-        "following_url": "https://api.github.com/users/davgrig/following{/other_user}",
-        "gists_url": "https://api.github.com/users/davgrig/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/davgrig/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/davgrig/subscriptions",
-        "organizations_url": "https://api.github.com/users/davgrig/orgs",
-        "repos_url": "https://api.github.com/users/davgrig/repos",
-        "events_url": "https://api.github.com/users/davgrig/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/davgrig/received_events",
-        "type": "User",
-        "site_admin": false
-      },
-      "version": "2755c2fb947fdd47aed174695de053898e3cfb47",
-      "committed_at": "2020-04-12T21:28:51Z",
-      "change_status": {
-        "total": 2,
-        "additions": 2,
-        "deletions": 0
-      },
-      "url": "https://api.github.com/gists/aef4b51489822d42684705f911f624a1/2755c2fb947fdd47aed174695de053898e3cfb47"
-    }
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "required": [
+    "url",
+    "forks_url",
+    "commits_url",
+    "id",
+    "node_id",
+    "git_pull_url",
+    "git_push_url",
+    "html_url",
+    "files",
+    "public",
+    "created_at",
+    "updated_at",
+    "description",
+    "comments",
+    "user",
+    "comments_url",
+    "owner",
+    "forks",
+    "history",
+    "truncated"
   ],
-  "truncated": false
+  "properties": {
+    "url": {
+      "$id": "#/properties/url",
+      "type": "string",
+      "title": "The Url Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://api.github.com/gists/84810c832e96ee38fdb3236e4264b3e0"
+      ]
+    },
+    "forks_url": {
+      "$id": "#/properties/forks_url",
+      "type": "string",
+      "title": "The Forks_url Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://api.github.com/gists/84810c832e96ee38fdb3236e4264b3e0/forks"
+      ]
+    },
+    "commits_url": {
+      "$id": "#/properties/commits_url",
+      "type": "string",
+      "title": "The Commits_url Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://api.github.com/gists/84810c832e96ee38fdb3236e4264b3e0/commits"
+      ]
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "string",
+      "title": "The Id Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "84810c832e96ee38fdb3236e4264b3e0"
+      ]
+    },
+    "node_id": {
+      "$id": "#/properties/node_id",
+      "type": "string",
+      "title": "The Node_id Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "MDQ6R2lzdDg0ODEwYzgzMmU5NmVlMzhmZGIzMjM2ZTQyNjRiM2Uw"
+      ]
+    },
+    "git_pull_url": {
+      "$id": "#/properties/git_pull_url",
+      "type": "string",
+      "title": "The Git_pull_url Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://gist.github.com/84810c832e96ee38fdb3236e4264b3e0.git"
+      ]
+    },
+    "git_push_url": {
+      "$id": "#/properties/git_push_url",
+      "type": "string",
+      "title": "The Git_push_url Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://gist.github.com/84810c832e96ee38fdb3236e4264b3e0.git"
+      ]
+    },
+    "html_url": {
+      "$id": "#/properties/html_url",
+      "type": "string",
+      "title": "The Html_url Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://gist.github.com/84810c832e96ee38fdb3236e4264b3e0"
+      ]
+    },
+    "files": {
+      "$id": "#/properties/files",
+      "type": "object",
+      "title": "The Files Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "hello_world.py": {
+            "language": "Python",
+            "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/99c1bf3a345505c2e6195198d5f8c36267de570b/hello_world.py",
+            "filename": "hello_world.py",
+            "type": "application/x-python",
+            "size": 199.0,
+            "content": "class HelloWorld:\n\n    def __init__(self, name):\n        self.name = name.capitalize()\n       \n    def sayHi(self):\n        print \"Hello \" + self.name + \"!\"\n\nhello = HelloWorld(\"world\")\nhello.sayHi()",
+            "truncated": false
+          },
+          "hello_world_ruby.txt": {
+            "truncated": false,
+            "language": "Text",
+            "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/9e4544db60e01a261aac098592b11333704e9082/hello_world_ruby.txt",
+            "filename": "hello_world_ruby.txt",
+            "type": "text/plain",
+            "content": "Run `ruby hello_world.rb` to print Hello World",
+            "size": 46.0
+          },
+          "hello_world.rb": {
+            "type": "application/x-ruby",
+            "size": 167.0,
+            "content": "class HelloWorld\n   def initialize(name)\n      @name = name.capitalize\n   end\n   def sayHi\n      puts \"Hello !\"\n   end\nend\n\nhello = HelloWorld.new(\"World\")\nhello.sayHi",
+            "truncated": false,
+            "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/ee8be6ed38a708a8a32437bd6e9ef17fc2ef06b0/hello_world.rb",
+            "language": "Ruby",
+            "filename": "hello_world.rb"
+          },
+          "hello_world_python.txt": {
+            "type": "text/plain",
+            "content": "Run `python hello_world.py` to print Hello World",
+            "size": 48.0,
+            "truncated": false,
+            "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/076b4b78c10c9b7e1e0b73ffb99631bfc948de3b/hello_world_python.txt",
+            "language": "Text",
+            "filename": "hello_world_python.txt"
+          }
+        }
+      ],
+      "required": [
+        "hello_world.py",
+        "hello_world.rb",
+        "hello_world_python.txt",
+        "hello_world_ruby.txt"
+      ],
+      "properties": {
+        "hello_world.py": {
+          "$id": "#/properties/files/properties/hello_world.py",
+          "type": "object",
+          "title": "The Hello_world.py Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/99c1bf3a345505c2e6195198d5f8c36267de570b/hello_world.py",
+              "language": "Python",
+              "filename": "hello_world.py",
+              "type": "application/x-python",
+              "content": "class HelloWorld:\n\n    def __init__(self, name):\n        self.name = name.capitalize()\n       \n    def sayHi(self):\n        print \"Hello \" + self.name + \"!\"\n\nhello = HelloWorld(\"world\")\nhello.sayHi()",
+              "size": 199.0,
+              "truncated": false
+            }
+          ],
+          "required": [
+            "filename",
+            "type",
+            "language",
+            "raw_url",
+            "size",
+            "truncated",
+            "content"
+          ],
+          "properties": {
+            "filename": {
+              "$id": "#/properties/files/properties/hello_world.py/properties/filename",
+              "type": "string",
+              "title": "The Filename Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "hello_world.py"
+              ]
+            },
+            "type": {
+              "$id": "#/properties/files/properties/hello_world.py/properties/type",
+              "type": "string",
+              "title": "The Type Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "application/x-python"
+              ]
+            },
+            "language": {
+              "$id": "#/properties/files/properties/hello_world.py/properties/language",
+              "type": "string",
+              "title": "The Language Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Python"
+              ]
+            },
+            "raw_url": {
+              "$id": "#/properties/files/properties/hello_world.py/properties/raw_url",
+              "type": "string",
+              "title": "The Raw_url Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/99c1bf3a345505c2e6195198d5f8c36267de570b/hello_world.py"
+              ]
+            },
+            "size": {
+              "$id": "#/properties/files/properties/hello_world.py/properties/size",
+              "type": "integer",
+              "title": "The Size Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                199
+              ]
+            },
+            "truncated": {
+              "$id": "#/properties/files/properties/hello_world.py/properties/truncated",
+              "type": "boolean",
+              "title": "The Truncated Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "content": {
+              "$id": "#/properties/files/properties/hello_world.py/properties/content",
+              "type": "string",
+              "title": "The Content Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "class HelloWorld:\n\n    def __init__(self, name):\n        self.name = name.capitalize()\n       \n    def sayHi(self):\n        print \"Hello \" + self.name + \"!\"\n\nhello = HelloWorld(\"world\")\nhello.sayHi()"
+              ]
+            }
+          }
+        },
+        "hello_world.rb": {
+          "$id": "#/properties/files/properties/hello_world.rb",
+          "type": "object",
+          "title": "The Hello_world.rb Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "truncated": false,
+              "language": "Ruby",
+              "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/ee8be6ed38a708a8a32437bd6e9ef17fc2ef06b0/hello_world.rb",
+              "filename": "hello_world.rb",
+              "type": "application/x-ruby",
+              "size": 167.0,
+              "content": "class HelloWorld\n   def initialize(name)\n      @name = name.capitalize\n   end\n   def sayHi\n      puts \"Hello !\"\n   end\nend\n\nhello = HelloWorld.new(\"World\")\nhello.sayHi"
+            }
+          ],
+          "required": [
+            "filename",
+            "type",
+            "language",
+            "raw_url",
+            "size",
+            "truncated",
+            "content"
+          ],
+          "properties": {
+            "filename": {
+              "$id": "#/properties/files/properties/hello_world.rb/properties/filename",
+              "type": "string",
+              "title": "The Filename Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "hello_world.rb"
+              ]
+            },
+            "type": {
+              "$id": "#/properties/files/properties/hello_world.rb/properties/type",
+              "type": "string",
+              "title": "The Type Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "application/x-ruby"
+              ]
+            },
+            "language": {
+              "$id": "#/properties/files/properties/hello_world.rb/properties/language",
+              "type": "string",
+              "title": "The Language Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Ruby"
+              ]
+            },
+            "raw_url": {
+              "$id": "#/properties/files/properties/hello_world.rb/properties/raw_url",
+              "type": "string",
+              "title": "The Raw_url Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/ee8be6ed38a708a8a32437bd6e9ef17fc2ef06b0/hello_world.rb"
+              ]
+            },
+            "size": {
+              "$id": "#/properties/files/properties/hello_world.rb/properties/size",
+              "type": "integer",
+              "title": "The Size Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                167
+              ]
+            },
+            "truncated": {
+              "$id": "#/properties/files/properties/hello_world.rb/properties/truncated",
+              "type": "boolean",
+              "title": "The Truncated Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "content": {
+              "$id": "#/properties/files/properties/hello_world.rb/properties/content",
+              "type": "string",
+              "title": "The Content Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "class HelloWorld\n   def initialize(name)\n      @name = name.capitalize\n   end\n   def sayHi\n      puts \"Hello !\"\n   end\nend\n\nhello = HelloWorld.new(\"World\")\nhello.sayHi"
+              ]
+            }
+          }
+        },
+        "hello_world_python.txt": {
+          "$id": "#/properties/files/properties/hello_world_python.txt",
+          "type": "object",
+          "title": "The Hello_world_python.txt Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "truncated": false,
+              "language": "Text",
+              "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/076b4b78c10c9b7e1e0b73ffb99631bfc948de3b/hello_world_python.txt",
+              "filename": "hello_world_python.txt",
+              "type": "text/plain",
+              "content": "Run `python hello_world.py` to print Hello World",
+              "size": 48.0
+            }
+          ],
+          "required": [
+            "filename",
+            "type",
+            "language",
+            "raw_url",
+            "size",
+            "truncated",
+            "content"
+          ],
+          "properties": {
+            "filename": {
+              "$id": "#/properties/files/properties/hello_world_python.txt/properties/filename",
+              "type": "string",
+              "title": "The Filename Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "hello_world_python.txt"
+              ]
+            },
+            "type": {
+              "$id": "#/properties/files/properties/hello_world_python.txt/properties/type",
+              "type": "string",
+              "title": "The Type Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "text/plain"
+              ]
+            },
+            "language": {
+              "$id": "#/properties/files/properties/hello_world_python.txt/properties/language",
+              "type": "string",
+              "title": "The Language Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Text"
+              ]
+            },
+            "raw_url": {
+              "$id": "#/properties/files/properties/hello_world_python.txt/properties/raw_url",
+              "type": "string",
+              "title": "The Raw_url Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/076b4b78c10c9b7e1e0b73ffb99631bfc948de3b/hello_world_python.txt"
+              ]
+            },
+            "size": {
+              "$id": "#/properties/files/properties/hello_world_python.txt/properties/size",
+              "type": "integer",
+              "title": "The Size Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                48
+              ]
+            },
+            "truncated": {
+              "$id": "#/properties/files/properties/hello_world_python.txt/properties/truncated",
+              "type": "boolean",
+              "title": "The Truncated Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "content": {
+              "$id": "#/properties/files/properties/hello_world_python.txt/properties/content",
+              "type": "string",
+              "title": "The Content Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Run `python hello_world.py` to print Hello World"
+              ]
+            }
+          }
+        },
+        "hello_world_ruby.txt": {
+          "$id": "#/properties/files/properties/hello_world_ruby.txt",
+          "type": "object",
+          "title": "The Hello_world_ruby.txt Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "size": 46.0,
+              "content": "Run `ruby hello_world.rb` to print Hello World",
+              "truncated": false,
+              "language": "Text",
+              "raw_url": "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/9e4544db60e01a261aac098592b11333704e9082/hello_world_ruby.txt",
+              "filename": "hello_world_ruby.txt",
+              "type": "text/plain"
+            }
+          ],
+          "required": [
+            "filename",
+            "type",
+            "language",
+            "raw_url",
+            "size",
+            "truncated",
+            "content"
+          ],
+          "properties": {
+            "filename": {
+              "$id": "#/properties/files/properties/hello_world_ruby.txt/properties/filename",
+              "type": "string",
+              "title": "The Filename Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "hello_world_ruby.txt"
+              ]
+            },
+            "type": {
+              "$id": "#/properties/files/properties/hello_world_ruby.txt/properties/type",
+              "type": "string",
+              "title": "The Type Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "text/plain"
+              ]
+            },
+            "language": {
+              "$id": "#/properties/files/properties/hello_world_ruby.txt/properties/language",
+              "type": "string",
+              "title": "The Language Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Text"
+              ]
+            },
+            "raw_url": {
+              "$id": "#/properties/files/properties/hello_world_ruby.txt/properties/raw_url",
+              "type": "string",
+              "title": "The Raw_url Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "https://gist.githubusercontent.com/davgrig/84810c832e96ee38fdb3236e4264b3e0/raw/9e4544db60e01a261aac098592b11333704e9082/hello_world_ruby.txt"
+              ]
+            },
+            "size": {
+              "$id": "#/properties/files/properties/hello_world_ruby.txt/properties/size",
+              "type": "integer",
+              "title": "The Size Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                46
+              ]
+            },
+            "truncated": {
+              "$id": "#/properties/files/properties/hello_world_ruby.txt/properties/truncated",
+              "type": "boolean",
+              "title": "The Truncated Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "content": {
+              "$id": "#/properties/files/properties/hello_world_ruby.txt/properties/content",
+              "type": "string",
+              "title": "The Content Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Run `ruby hello_world.rb` to print Hello World"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "public": {
+      "$id": "#/properties/public",
+      "type": "boolean",
+      "title": "The Public Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "created_at": {
+      "$id": "#/properties/created_at",
+      "type": "string",
+      "title": "The Created_at Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2020-04-13T14:46:06Z"
+      ]
+    },
+    "updated_at": {
+      "$id": "#/properties/updated_at",
+      "type": "string",
+      "title": "The Updated_at Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2020-04-13T14:46:06Z"
+      ]
+    },
+    "description": {
+      "$id": "#/properties/description",
+      "type": "string",
+      "title": "The Description Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Hello World Examples"
+      ]
+    },
+    "comments": {
+      "$id": "#/properties/comments",
+      "type": "integer",
+      "title": "The Comments Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "user": {
+      "$id": "#/properties/user",
+      "title": "The User Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "comments_url": {
+      "$id": "#/properties/comments_url",
+      "type": "string",
+      "title": "The Comments_url Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://api.github.com/gists/84810c832e96ee38fdb3236e4264b3e0/comments"
+      ]
+    },
+    "owner": {
+      "$id": "#/properties/owner",
+      "type": "object",
+      "title": "The Owner Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "repos_url": "https://api.github.com/users/davgrig/repos",
+          "avatar_url": "https://avatars0.githubusercontent.com/u/6986723?v=4",
+          "received_events_url": "https://api.github.com/users/davgrig/received_events",
+          "followers_url": "https://api.github.com/users/davgrig/followers",
+          "organizations_url": "https://api.github.com/users/davgrig/orgs",
+          "following_url": "https://api.github.com/users/davgrig/following{/other_user}",
+          "subscriptions_url": "https://api.github.com/users/davgrig/subscriptions",
+          "gists_url": "https://api.github.com/users/davgrig/gists{/gist_id}",
+          "node_id": "MDQ6VXNlcjY5ODY3MjM=",
+          "gravatar_id": "",
+          "login": "davgrig",
+          "site_admin": false,
+          "type": "User",
+          "events_url": "https://api.github.com/users/davgrig/events{/privacy}",
+          "html_url": "https://github.com/davgrig",
+          "starred_url": "https://api.github.com/users/davgrig/starred{/owner}{/repo}",
+          "id": 6986723.0,
+          "url": "https://api.github.com/users/davgrig"
+        }
+      ],
+      "required": [
+        "login",
+        "id",
+        "node_id",
+        "avatar_url",
+        "gravatar_id",
+        "url",
+        "html_url",
+        "followers_url",
+        "following_url",
+        "gists_url",
+        "starred_url",
+        "subscriptions_url",
+        "organizations_url",
+        "repos_url",
+        "events_url",
+        "received_events_url",
+        "type",
+        "site_admin"
+      ],
+      "properties": {
+        "login": {
+          "$id": "#/properties/owner/properties/login",
+          "type": "string",
+          "title": "The Login Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "davgrig"
+          ]
+        },
+        "id": {
+          "$id": "#/properties/owner/properties/id",
+          "type": "integer",
+          "title": "The Id Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            6986723
+          ]
+        },
+        "node_id": {
+          "$id": "#/properties/owner/properties/node_id",
+          "type": "string",
+          "title": "The Node_id Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "MDQ6VXNlcjY5ODY3MjM="
+          ]
+        },
+        "avatar_url": {
+          "$id": "#/properties/owner/properties/avatar_url",
+          "type": "string",
+          "title": "The Avatar_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://avatars0.githubusercontent.com/u/6986723?v=4"
+          ]
+        },
+        "gravatar_id": {
+          "$id": "#/properties/owner/properties/gravatar_id",
+          "type": "string",
+          "title": "The Gravatar_id Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "url": {
+          "$id": "#/properties/owner/properties/url",
+          "type": "string",
+          "title": "The Url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig"
+          ]
+        },
+        "html_url": {
+          "$id": "#/properties/owner/properties/html_url",
+          "type": "string",
+          "title": "The Html_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://github.com/davgrig"
+          ]
+        },
+        "followers_url": {
+          "$id": "#/properties/owner/properties/followers_url",
+          "type": "string",
+          "title": "The Followers_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/followers"
+          ]
+        },
+        "following_url": {
+          "$id": "#/properties/owner/properties/following_url",
+          "type": "string",
+          "title": "The Following_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/following{/other_user}"
+          ]
+        },
+        "gists_url": {
+          "$id": "#/properties/owner/properties/gists_url",
+          "type": "string",
+          "title": "The Gists_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/gists{/gist_id}"
+          ]
+        },
+        "starred_url": {
+          "$id": "#/properties/owner/properties/starred_url",
+          "type": "string",
+          "title": "The Starred_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/starred{/owner}{/repo}"
+          ]
+        },
+        "subscriptions_url": {
+          "$id": "#/properties/owner/properties/subscriptions_url",
+          "type": "string",
+          "title": "The Subscriptions_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/subscriptions"
+          ]
+        },
+        "organizations_url": {
+          "$id": "#/properties/owner/properties/organizations_url",
+          "type": "string",
+          "title": "The Organizations_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/orgs"
+          ]
+        },
+        "repos_url": {
+          "$id": "#/properties/owner/properties/repos_url",
+          "type": "string",
+          "title": "The Repos_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/repos"
+          ]
+        },
+        "events_url": {
+          "$id": "#/properties/owner/properties/events_url",
+          "type": "string",
+          "title": "The Events_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/events{/privacy}"
+          ]
+        },
+        "received_events_url": {
+          "$id": "#/properties/owner/properties/received_events_url",
+          "type": "string",
+          "title": "The Received_events_url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/davgrig/received_events"
+          ]
+        },
+        "type": {
+          "$id": "#/properties/owner/properties/type",
+          "type": "string",
+          "title": "The Type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "User"
+          ]
+        },
+        "site_admin": {
+          "$id": "#/properties/owner/properties/site_admin",
+          "type": "boolean",
+          "title": "The Site_admin Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [
+            false
+          ]
+        }
+      }
+    },
+    "forks": {
+      "$id": "#/properties/forks",
+      "type": "array",
+      "title": "The Forks Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": []
+    },
+    "history": {
+      "$id": "#/properties/history",
+      "type": "array",
+      "title": "The History Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/history/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "version": "5b9e91fc673e6db98799e28592c168096a708631",
+            "committed_at": "2020-04-13T14:46:06Z",
+            "url": "https://api.github.com/gists/84810c832e96ee38fdb3236e4264b3e0/5b9e91fc673e6db98799e28592c168096a708631",
+            "user": {
+              "url": "https://api.github.com/users/davgrig",
+              "repos_url": "https://api.github.com/users/davgrig/repos",
+              "avatar_url": "https://avatars0.githubusercontent.com/u/6986723?v=4",
+              "received_events_url": "https://api.github.com/users/davgrig/received_events",
+              "followers_url": "https://api.github.com/users/davgrig/followers",
+              "organizations_url": "https://api.github.com/users/davgrig/orgs",
+              "following_url": "https://api.github.com/users/davgrig/following{/other_user}",
+              "subscriptions_url": "https://api.github.com/users/davgrig/subscriptions",
+              "gists_url": "https://api.github.com/users/davgrig/gists{/gist_id}",
+              "node_id": "MDQ6VXNlcjY5ODY3MjM=",
+              "gravatar_id": "",
+              "site_admin": false,
+              "login": "davgrig",
+              "type": "User",
+              "events_url": "https://api.github.com/users/davgrig/events{/privacy}",
+              "html_url": "https://github.com/davgrig",
+              "starred_url": "https://api.github.com/users/davgrig/starred{/owner}{/repo}",
+              "id": 6986723.0
+            },
+            "change_status": {
+              "additions": 23.0,
+              "deletions": 0.0,
+              "total": 23.0
+            }
+          }
+        ],
+        "required": [
+          "user",
+          "version",
+          "committed_at",
+          "change_status",
+          "url"
+        ],
+        "properties": {
+          "user": {
+            "$id": "#/properties/history/items/properties/user",
+            "type": "object",
+            "title": "The User Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "organizations_url": "https://api.github.com/users/davgrig/orgs",
+                "following_url": "https://api.github.com/users/davgrig/following{/other_user}",
+                "subscriptions_url": "https://api.github.com/users/davgrig/subscriptions",
+                "gists_url": "https://api.github.com/users/davgrig/gists{/gist_id}",
+                "node_id": "MDQ6VXNlcjY5ODY3MjM=",
+                "gravatar_id": "",
+                "login": "davgrig",
+                "site_admin": false,
+                "type": "User",
+                "events_url": "https://api.github.com/users/davgrig/events{/privacy}",
+                "starred_url": "https://api.github.com/users/davgrig/starred{/owner}{/repo}",
+                "html_url": "https://github.com/davgrig",
+                "id": 6986723.0,
+                "url": "https://api.github.com/users/davgrig",
+                "repos_url": "https://api.github.com/users/davgrig/repos",
+                "received_events_url": "https://api.github.com/users/davgrig/received_events",
+                "avatar_url": "https://avatars0.githubusercontent.com/u/6986723?v=4",
+                "followers_url": "https://api.github.com/users/davgrig/followers"
+              }
+            ],
+            "required": [
+              "login",
+              "id",
+              "node_id",
+              "avatar_url",
+              "gravatar_id",
+              "url",
+              "html_url",
+              "followers_url",
+              "following_url",
+              "gists_url",
+              "starred_url",
+              "subscriptions_url",
+              "organizations_url",
+              "repos_url",
+              "events_url",
+              "received_events_url",
+              "type",
+              "site_admin"
+            ],
+            "properties": {
+              "login": {
+                "$id": "#/properties/history/items/properties/user/properties/login",
+                "type": "string",
+                "title": "The Login Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "davgrig"
+                ]
+              },
+              "id": {
+                "$id": "#/properties/history/items/properties/user/properties/id",
+                "type": "integer",
+                "title": "The Id Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  6986723
+                ]
+              },
+              "node_id": {
+                "$id": "#/properties/history/items/properties/user/properties/node_id",
+                "type": "string",
+                "title": "The Node_id Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "MDQ6VXNlcjY5ODY3MjM="
+                ]
+              },
+              "avatar_url": {
+                "$id": "#/properties/history/items/properties/user/properties/avatar_url",
+                "type": "string",
+                "title": "The Avatar_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://avatars0.githubusercontent.com/u/6986723?v=4"
+                ]
+              },
+              "gravatar_id": {
+                "$id": "#/properties/history/items/properties/user/properties/gravatar_id",
+                "type": "string",
+                "title": "The Gravatar_id Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "url": {
+                "$id": "#/properties/history/items/properties/user/properties/url",
+                "type": "string",
+                "title": "The Url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig"
+                ]
+              },
+              "html_url": {
+                "$id": "#/properties/history/items/properties/user/properties/html_url",
+                "type": "string",
+                "title": "The Html_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://github.com/davgrig"
+                ]
+              },
+              "followers_url": {
+                "$id": "#/properties/history/items/properties/user/properties/followers_url",
+                "type": "string",
+                "title": "The Followers_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/followers"
+                ]
+              },
+              "following_url": {
+                "$id": "#/properties/history/items/properties/user/properties/following_url",
+                "type": "string",
+                "title": "The Following_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/following{/other_user}"
+                ]
+              },
+              "gists_url": {
+                "$id": "#/properties/history/items/properties/user/properties/gists_url",
+                "type": "string",
+                "title": "The Gists_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/gists{/gist_id}"
+                ]
+              },
+              "starred_url": {
+                "$id": "#/properties/history/items/properties/user/properties/starred_url",
+                "type": "string",
+                "title": "The Starred_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/starred{/owner}{/repo}"
+                ]
+              },
+              "subscriptions_url": {
+                "$id": "#/properties/history/items/properties/user/properties/subscriptions_url",
+                "type": "string",
+                "title": "The Subscriptions_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/subscriptions"
+                ]
+              },
+              "organizations_url": {
+                "$id": "#/properties/history/items/properties/user/properties/organizations_url",
+                "type": "string",
+                "title": "The Organizations_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/orgs"
+                ]
+              },
+              "repos_url": {
+                "$id": "#/properties/history/items/properties/user/properties/repos_url",
+                "type": "string",
+                "title": "The Repos_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/repos"
+                ]
+              },
+              "events_url": {
+                "$id": "#/properties/history/items/properties/user/properties/events_url",
+                "type": "string",
+                "title": "The Events_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/events{/privacy}"
+                ]
+              },
+              "received_events_url": {
+                "$id": "#/properties/history/items/properties/user/properties/received_events_url",
+                "type": "string",
+                "title": "The Received_events_url Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://api.github.com/users/davgrig/received_events"
+                ]
+              },
+              "type": {
+                "$id": "#/properties/history/items/properties/user/properties/type",
+                "type": "string",
+                "title": "The Type Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "User"
+                ]
+              },
+              "site_admin": {
+                "$id": "#/properties/history/items/properties/user/properties/site_admin",
+                "type": "boolean",
+                "title": "The Site_admin Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              }
+            }
+          },
+          "version": {
+            "$id": "#/properties/history/items/properties/version",
+            "type": "string",
+            "title": "The Version Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "5b9e91fc673e6db98799e28592c168096a708631"
+            ]
+          },
+          "committed_at": {
+            "$id": "#/properties/history/items/properties/committed_at",
+            "type": "string",
+            "title": "The Committed_at Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2020-04-13T14:46:06Z"
+            ]
+          },
+          "change_status": {
+            "$id": "#/properties/history/items/properties/change_status",
+            "type": "object",
+            "title": "The Change_status Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "additions": 23.0,
+                "deletions": 0.0,
+                "total": 23.0
+              }
+            ],
+            "required": [
+              "total",
+              "additions",
+              "deletions"
+            ],
+            "properties": {
+              "total": {
+                "$id": "#/properties/history/items/properties/change_status/properties/total",
+                "type": "integer",
+                "title": "The Total Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  23
+                ]
+              },
+              "additions": {
+                "$id": "#/properties/history/items/properties/change_status/properties/additions",
+                "type": "integer",
+                "title": "The Additions Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  23
+                ]
+              },
+              "deletions": {
+                "$id": "#/properties/history/items/properties/change_status/properties/deletions",
+                "type": "integer",
+                "title": "The Deletions Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              }
+            }
+          },
+          "url": {
+            "$id": "#/properties/history/items/properties/url",
+            "type": "string",
+            "title": "The Url Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "https://api.github.com/gists/84810c832e96ee38fdb3236e4264b3e0/5b9e91fc673e6db98799e28592c168096a708631"
+            ]
+          }
+        }
+      }
+    },
+    "truncated": {
+      "$id": "#/properties/truncated",
+      "type": "boolean",
+      "title": "The Truncated Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false,
+      "examples": [
+        false
+      ]
+    }
+  }
 }

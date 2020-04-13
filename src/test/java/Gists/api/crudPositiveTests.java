@@ -7,11 +7,8 @@ import static org.hamcrest.Matchers.hasItems;
 import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.not;
 
-import io.restassured.RestAssured;
 import io.restassured.response.ResponseBody;
 
-import io.restassured.specification.RequestSpecification;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.MethodOrderer;
@@ -22,11 +19,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class crudTests extends baseTest{
+public class crudPositiveTests extends baseTest{
 
-    private static final Logger LOG = LoggerFactory.getLogger(crudTests.class);
+    private static final Logger LOG = LoggerFactory.getLogger(crudPositiveTests.class);
     private static ThreadLocal<String> gistId = new ThreadLocal<>();
-    
+
     @Test
     @Order(1)
     public void createGist() {

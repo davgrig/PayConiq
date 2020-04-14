@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 public class baseTest {
     private static final Logger LOG = LoggerFactory.getLogger(crudPositiveTests.class);
-    private static String token = "bed811dc90ab6a8ed74d7dd2a10649a759583bc5";
+    private static String token = "d5df34d5919b2bf6321121281092cec6230077a3";
     private static java.lang.String baseUrl = "https://api.github.com";
 
 
